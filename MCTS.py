@@ -116,7 +116,6 @@ def MCTS(game, iteration):
         # print("State", state.is_terminal())
         check, player = state.is_terminal()
         # print("Check", state.is_terminal()[0])
-        print("Player", state.is_terminal()[1])
 
         # Backpropagation
         # Update the win and visit count of the nodes in the path
